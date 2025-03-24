@@ -7,23 +7,54 @@
     <style>
         div.conteiner{
             background-color: aqua;
-            display: flex;
+            
+            
+
         }
-        div.item{ 
+        div.item1{ 
             background-color: rgb(223, 143, 143);
             border: 1px solid black;
             text-align: center;
             flex: auto;
+            display: block;
+            flex-direction: row;
+        }
+        div.item2{
+            background-color: rgb(197, 21, 21);
+            border: 1px solid black;
+            text-align: center;
+            flex: auto;
+            display: block;
+            flex-direction: column;
+
+        }
+        div.item3{
+            background-color: rgb(144, 113, 46);
+            border: 1px solid black;
+            align-items: flex-start;
+            text-align: center;
+            flex: auto;
+            display: block;
+            flex-direction: column;
+
+        }
+        div.item4{
+            background-color: rgb(21, 197, 62);
+            border: 1px solid black;
+            text-align: center;
+            flex: auto;
+            display: block;
+            flex-direction: column;
 
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">a</div>
-        <div class="item">b</div>
-        <div class="item">c</div>
-        <div class="item">d</div>
+        <div class="item1">a</div>
+        <div class="item2">b</div>
+        <div class="item3">c</div>
+        <div class="item4">d</div>
     </div>
     
 </body>
