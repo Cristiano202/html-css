@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        formulário
+    </title>
+    <style>
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste formulário</h1>
+    <form action="cadatro.php" method="get" autocomplete="on">
+        <p>
+        <label for="inome">Nome:</label>
+        <input type="text" name="nome" id="inome" required maxlength="30" minlength="5" placeholder="Nome" autocomplete="name">
+    </p>
+    <p>
+        <label for="imedia">Média</label>
+        <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10 " step="0.1">
+    </p>
+    <p>
+        <label for="imes">Período letivo</label>
+        <input type="month" name="media" id="imedia">
+    </p>
+    <p>
+        <label for="idia">Dia da prova</label>
+        <input type="date" name="dia" id="idia">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    
+    </form  >
+    
+    
+</body>
+</html>
